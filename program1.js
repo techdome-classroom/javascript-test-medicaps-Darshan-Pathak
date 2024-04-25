@@ -6,7 +6,7 @@ function longestSubstring(s) {
     let maxLength = 0;
     let charIndexMap = new Map();
 
-    // Slide the windowEnd over the string from left to right
+    
     for (let windowEnd = 0; windowEnd < s.length; windowEnd++) {
         const currentChar = s[windowEnd];
 
