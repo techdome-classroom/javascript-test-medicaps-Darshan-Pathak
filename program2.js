@@ -11,8 +11,7 @@ function smallestMissingPositiveInteger(nums) {
       }
   }
 
-  // After reordering, find the first index that does not have the correct number
-  // (i.e., number at index i should be i + 1)
+  
   for (let i = 0; i < n; ++i) {
       if (nums[i] !== i + 1) {
           return i + 1;
