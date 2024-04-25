@@ -10,7 +10,7 @@ function longestSubstring(s) {
     for (let windowEnd = 0; windowEnd < s.length; windowEnd++) {
         const currentChar = s[windowEnd];
 
-        // If the character is already in the map and the index is within the current window
+        
         if (charIndexMap.has(currentChar) && charIndexMap.get(currentChar) >= windowStart) {
             // Move the start of the window right past the last occurrence of currentChar
             windowStart = charIndexMap.get(currentChar) + 1;
