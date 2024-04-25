@@ -4,8 +4,7 @@ function smallestMissingPositiveInteger(nums) {
   const n = nums.length;
 
   for (let i = 0; i < n; ++i) {
-      // Swap elements to their correct positions if they are positive and
-      // within the array index bounds, and if the target position doesn't already have the correct number.
+      
       while (nums[i] > 0 && nums[i] <= n && nums[nums[i] - 1] !== nums[i]) {
           let correctPos = nums[i] - 1;
           [nums[i], nums[correctPos]] = [nums[correctPos], nums[i]];  // Swapping using destructuring
