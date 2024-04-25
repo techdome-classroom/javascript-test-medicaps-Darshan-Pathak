@@ -16,7 +16,7 @@ function longestSubstring(s) {
             windowStart = charIndexMap.get(currentChar) + 1;
         }
 
-        // Place the current character and its index into the map
+        
         charIndexMap.set(currentChar, windowEnd);
 
         // Calculate the new length of the substring
