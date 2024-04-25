@@ -7,7 +7,7 @@ function smallestMissingPositiveInteger(nums) {
       
       while (nums[i] > 0 && nums[i] <= n && nums[nums[i] - 1] !== nums[i]) {
           let correctPos = nums[i] - 1;
-          [nums[i], nums[correctPos]] = [nums[correctPos], nums[i]];  // Swapping using destructuring
+          [nums[i], nums[correctPos]] = [nums[correctPos], nums[i]];  
       }
   }
 
