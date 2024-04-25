@@ -12,7 +12,7 @@ function longestSubstring(s) {
 
         
         if (charIndexMap.has(currentChar) && charIndexMap.get(currentChar) >= windowStart) {
-            // Move the start of the window right past the last occurrence of currentChar
+            
             windowStart = charIndexMap.get(currentChar) + 1;
         }
 
