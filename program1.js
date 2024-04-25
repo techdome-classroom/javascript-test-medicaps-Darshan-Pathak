@@ -1,8 +1,4 @@
-// function longestSubstring(s) {
-//     // Implementation of longestSubstring function
-// }
 
-// module.exports = { longestSubstring };
 
 
 function longestSubstring(s) {
