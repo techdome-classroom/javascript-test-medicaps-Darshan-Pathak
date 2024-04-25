@@ -19,7 +19,7 @@ function longestSubstring(s) {
         
         charIndexMap.set(currentChar, windowEnd);
 
-        // Calculate the new length of the substring
+        
         maxLength = Math.max(maxLength, windowEnd - windowStart + 1);
     }
 
