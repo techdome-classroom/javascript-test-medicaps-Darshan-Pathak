@@ -1,10 +1,10 @@
-function smallestMissingPositiveInteger(nums) {
+// function smallestMissingPositiveInteger(nums) {
 
-  // Implement the function smallest_missing_positive_integer
+//   // Implement the function smallest_missing_positive_integer
 
-}
+// }
 
-module.exports = smallestMissingPositiveInteger;
+// module.exports = smallestMissingPositiveInteger;
 
 function smallestMissingPositiveInteger(nums) {
   const n = nums.length;
